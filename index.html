@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple List App</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script data-main="js/boot" src="js/lib/require.js"></script>
+</head>
+<body>
+  <div class="list">
+    <form name="item-form" id="item-form" onsubmit="return false;">
+      <input type="text" name="add-input" placeholder="Add items to list">
+      <button type="button" name='add-button'>Add</button>
+    </form>
+
+    <ul id="items-list">
+    </ul>
+
+    <p class="info">
+      <span id="item-count">0</span> items in list
+    </p>
+  </div>
+</body>
+</html>
+
